@@ -7,6 +7,7 @@ A simple text-based Kotlin game where the player fights a dummy.
    git clone https://github.com/yourusername/TrainingGround.git
 
 2.Open the project in IntelliJ IDEA.
+
 3.Run trainingground.kt.
 
 ## Features
