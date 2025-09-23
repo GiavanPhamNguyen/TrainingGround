@@ -6,9 +6,9 @@ A simple text-based Kotlin game where the player fights a dummy.
    ```bash
    git clone https://github.com/yourusername/TrainingGround.git
 
-2.Open the project in IntelliJ IDEA.
+2. Open the project in IntelliJ IDEA.
 
-3.Run trainingground.kt.
+3. Run trainingground.kt.
 
 ## Features
 - Text-based RPG combat written in Kotlin  
@@ -19,11 +19,11 @@ A simple text-based Kotlin game where the player fights a dummy.
 - Turn-based combat: 5 turns per training session  
 - Player actions each turn: Attack, Heal, or Quit  
 - Dice-based mechanics: randomized hit success and damage  
-- Healing system: restore 1–6 HP per turn  
+- Healing system: restore 1–6 HP per turn
 - Enemy AI: Dummy attacks back with variable success and damage  
 - HP tracking: Player HP and Dummy HP displayed each turn  
-- Victory/defeat outcomes: Game ends when turns run out or HP drops to 0  
-- Input validation: Handles invalid commands gracefully    
+- Victory/defeat outcomes: Game ends when turns run out or either the player's or the dummy's HP drops to 0  
+- Input validation: Handles invalid input from user   
 
 ## Future Improvements
 - Add multiple enemies
