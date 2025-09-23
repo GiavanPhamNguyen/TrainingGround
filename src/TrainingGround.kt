@@ -42,7 +42,7 @@ fun main() {
         var userWeapon = readLine()?.trim()?.lowercase()
         println()
 
-        //training depending on user's weapon choice, utilizing loops while user's HP and dummy's HP are above zero within 5 turns
+        //training depending on user's weapon choice, utilizing loops while user's HP and dummy's HP are above zero within 5 turns.
         if (userWeapon == "fists") {
             println("You have selected to not use a weapon, instead you rely on your trusty knuckle sandwiches!")
             println("You will need to roll a 4 or higher to successfully land an attack on the dummy.")
@@ -166,6 +166,8 @@ fun main() {
         } else {
             println("You have selected an invalid weapon.")
         }
+
+        //endgame scenarios, if there are no turns remaining, check whether dummy has been defeated
         if (turn == 0) {
             if(dummyHP > 0){
                 println("You have no turns remaining.")
@@ -184,6 +186,8 @@ fun main() {
                 println("The dummy is defeated by $userName")
                 println()
             }
+
+        //account for whether user's or dummy' HP drops below zero, breaking out of the loop above and triggering the end of training
         } else {
             if (userHP > 0 && dummyHP <= 0){
                 println("Here are the results:")
@@ -216,7 +220,7 @@ fun main() {
         }
 }
 
-//functions used for attacking and healing
+//functions used for attacking with each respective weapons and healing
 fun attackFists(){//declare functions for attacking with fists
     var hitChance = (2..12).random()
     var damageChance = (1..6).random()
