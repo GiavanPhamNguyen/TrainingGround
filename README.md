@@ -2,13 +2,12 @@
 A simple text-based Kotlin game where the player fights a dummy.
 
 ## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/TrainingGround.git
-
-2. Open the project in IntelliJ IDEA.
-
-3. Run trainingground.kt.
+Clone the repository:
+```bash
+git clone https://github.com/GiavanPhamNguyen/TrainingGround.git
+cd TrainingGround
+# Open the project in IntelliJ IDEA or any Kotlin-compatible IDE
+# Run the main() function in TrainingGround.kt
 
 ## Features
 - Text-based RPG combat written in Kotlin  
